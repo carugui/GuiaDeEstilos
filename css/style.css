@@ -59,6 +59,10 @@ a:visited {
     color: #7A731C;
 }
 
+a:hover {
+    text-decoration-thickness: 4px;
+}
+
 button,
 .button-link {
     display: inline-block;
