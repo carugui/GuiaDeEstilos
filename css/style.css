@@ -49,6 +49,36 @@ h6,
     font-size: 16px;
 }
 
+/* COLORES */
+.color-naranja {
+    color: #FC8455;
+}
+.bg-color-naranja {
+    background-color: #FC8455;
+}
+
+.color-azul {
+    color: #5C7CD4;
+}
+.bg-color-azul {
+    background-color: #5C7CD4;
+}
+
+.color-verde-claro {
+    color: #C4DCAC;
+}
+.bg-color-verde-claro {
+    background-color: #C4DCAC;
+}
+
+.color-verde-oscuro {
+    color: #736A00;
+}
+.bg-color-verde-oscuro {
+    background-color: #736A00;
+}
+
+
 a {
     color: #FC8455;
     text-decoration: underline;
@@ -193,6 +223,21 @@ main {
     border-bottom: 2px solid #3A3A3A;
     opacity: 1;
 } 
+
+.seccion-color {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.seccion-color:before {
+    content: attr(data-color);
+    background-color: rgba(0,0,0,0.2);
+    display: block;
+    color: white;
+    text-align: center;
+}
 
 .seccion-guia {
     padding: 20px;
