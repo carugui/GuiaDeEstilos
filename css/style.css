@@ -194,7 +194,7 @@ main {
     opacity: 1;
 } 
 
-section {
+.seccion-guia {
     padding: 20px;
     margin-bottom: 64px;
     border: 2px solid #3A3A3A;
